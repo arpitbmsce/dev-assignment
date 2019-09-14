@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+  </head>
+
+  <body onload="loadData()">
+    <!-- header> <-->
+    <div class="header">
+      <span class="headerElement fancyText"> Movie trailers </span>
+      <span class="headerElement greenButtonElement">Coming soon</span>
+      <span class="headerElement greyButtonElement">Now showing</span>
+      <div class="pullRight headerElement">
+        <select class="greenLabel">
+          <option>
+            Popular
+          </option>
+        </select>
+        <select id="language" class="greenLabel">
+        </select>
+        <select id="genre" class="greenLabel">
+        </select>
+        <span class="headerIcons">X</span>
+      </div>
+    </div>
+    <div class="margin-top-10">
+      <span>Applied filters: </span>
+      <span id="filters"></span>
+    </div>
+    <div class="margin-top-10">
+       <!--trailer rows go here -->
+    </div>
+  </body>
+
+</html>
