@@ -25,7 +25,6 @@ function validateListOfNumbers () {
   data.forEach(function(elem) {
     let indexOfHyphen = elem.indexOf('-');
     if (indexOfHyphen > -1) {
-      // alert(900);
       let startNum = parseInt(elem.substring(0, indexOfHyphen).trim());
       let endNum = parseInt(elem.substring(indexOfHyphen + 1, elem.length).trim());
 
@@ -37,6 +36,6 @@ function validateListOfNumbers () {
     }
   });
     finalList.push(...additionalList);
-    alert(finalList);
-    alert(duplicateList);
+    document.getElementById("message").innerHTML = `The Final list is ${finalList} and Duplicate numbers list is ${duplicateList ? duplicateList: 'EMPTY'}. Enter again if you wish :)`
+
  }
