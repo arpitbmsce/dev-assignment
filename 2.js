@@ -1,5 +1,3 @@
-// pull right for the select buttons
-
 // Code goes here
 
 let filters = [];
