@@ -1,0 +1,47 @@
+/* Styles go here */
+
+.header, .headerIcons {
+  background-color: black;
+}
+
+.margin-top-10 {
+  margin-top: 10px;
+}
+
+body {
+  background-color: #bfbfbf;
+  color: white;
+  font-size: 12px;
+}
+
+.fancyText {
+  font-family: "Comic Sans MS";
+}
+
+.headerElement, .filterElement {
+  display: inline-block;
+  margin: 3px;
+  padding: 5px;
+  vertical-align: middle;
+}
+
+.greyButtonElement {
+  background-color: #404040;
+  border-radius: 5px;
+}
+
+.greenButtonElement {
+  background-color: #00cc00;
+  border-radius: 5px;
+}
+
+.greenLabel {
+  border: 2px solid green;
+  color: green;
+}
+
+.pullRight {
+  float: right;
+  display: inline-block;
+}
+
